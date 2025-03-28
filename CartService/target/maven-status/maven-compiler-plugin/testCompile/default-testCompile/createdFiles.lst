@@ -1,0 +1,6 @@
+com\cartservice\service\CartCouponServiceImplTest.class
+com\cartservice\repository\CartDealRepositoryTest.class
+com\cartservice\service\CartDealServiceImplTest.class
+com\cartservice\repository\CartCouponRepositoryTest.class
+com\cartservice\controller\CartCouponControllerTest.class
+com\cartservice\controller\CartDealControllerTest.class
