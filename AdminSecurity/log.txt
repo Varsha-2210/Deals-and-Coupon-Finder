@@ -1,0 +1,193 @@
+2024-03-22 14:44:46.786  INFO 25116 --- [restartedMain] c.c.CustomerSecurityApplication          : Starting CustomerSecurityApplication using Java 17.0.9 on LIN-PF1TMGZV with PID 25116 (C:\Users\IPSAHOO\OneDrive\Deals-and-Coupon-Finder-App-main imp\Deals-and-Coupon-Finder-App-main\backend\customer-security\target\classes started by ipsahoo in C:\Users\IPSAHOO\OneDrive\Deals-and-Coupon-Finder-App-main imp\Deals-and-Coupon-Finder-App-main\backend\customer-security)
+2024-03-22 14:44:46.788  INFO 25116 --- [restartedMain] c.c.CustomerSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-22 14:44:46.860  INFO 25116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 14:44:46.870  INFO 25116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 14:44:48.127  INFO 25116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-03-22 14:44:48.366  INFO 25116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232 ms. Found 2 MongoDB repository interfaces.
+2024-03-22 14:44:48.719  INFO 25116 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9b13fcbe-a602-39da-ac09-e6da047d4b3d
+2024-03-22 14:44:49.472  INFO 25116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2024-03-22 14:44:49.495  INFO 25116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-22 14:44:49.495  INFO 25116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-22 14:44:49.684  INFO 25116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-22 14:44:49.684  INFO 25116 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2812 ms
+2024-03-22 14:44:50.013  INFO 25116 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.9+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@71e2f059]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-03-22 14:44:50.026  INFO 25116 --- [cluster-rtt-ClusterId{value='65fd4c09eb9666490e335f65', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:90}] to localhost:27017
+2024-03-22 14:44:50.026  INFO 25116 --- [cluster-ClusterId{value='65fd4c09eb9666490e335f65', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:89}] to localhost:27017
+2024-03-22 14:44:50.027  INFO 25116 --- [cluster-ClusterId{value='65fd4c09eb9666490e335f65', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34548800}
+2024-03-22 14:44:50.132  WARN 25116 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-03-22 14:44:50.259  WARN 25116 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-03-22 14:44:50.701  INFO 25116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-22 14:44:51.416  INFO 25116 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-22 14:44:51.601  INFO 25116 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a5bcf8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b2ac76a, org.springframework.security.web.context.SecurityContextPersistenceFilter@148c4712, org.springframework.security.web.header.HeaderWriterFilter@7ea0fa0d, org.springframework.web.filter.CorsFilter@6c86a893, org.springframework.security.web.authentication.logout.LogoutFilter@11651559, com.customersecurity.secutiry.jwt.AuthTokenFilter@597e34c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@184eae7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ada4b05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@af2876e, org.springframework.security.web.session.SessionManagementFilter@abe52bc, org.springframework.security.web.access.ExceptionTranslationFilter@7a7621d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f509930]
+2024-03-22 14:44:52.136  INFO 25116 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-03-22 14:44:52.449  WARN 25116 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-22 14:44:52.550  INFO 25116 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-03-22 14:44:52.603  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-03-22 14:44:52.612  INFO 25116 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-03-22 14:44:52.642  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-03-22 14:44:52.642  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-03-22 14:44:52.643  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-03-22 14:44:52.643  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-03-22 14:44:52.643  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-03-22 14:44:52.644  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-03-22 14:44:52.645  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-03-22 14:44:53.228  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-03-22 14:44:53.231  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-03-22 14:44:53.237  INFO 25116 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-03-22 14:44:53.244  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1711098893243 with initial instances count: 0
+2024-03-22 14:44:53.248  INFO 25116 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER-SECURITY with eureka with status UP
+2024-03-22 14:44:53.249  INFO 25116 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1711098893249, current=UP, previous=STARTING]
+2024-03-22 14:44:53.252  INFO 25116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085: registering service...
+2024-03-22 14:44:53.298  INFO 25116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2024-03-22 14:44:53.300  INFO 25116 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2024-03-22 14:44:53.416  INFO 25116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - registration status: 204
+2024-03-22 14:44:53.527  INFO 25116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-22 14:44:53.547  INFO 25116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-22 14:44:53.599  INFO 25116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-22 14:44:53.797  INFO 25116 --- [restartedMain] c.c.CustomerSecurityApplication          : Started CustomerSecurityApplication in 7.84 seconds (JVM running for 9.213)
+2024-03-22 14:45:23.201  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-03-22 14:45:23.202  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-03-22 14:45:23.202  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-03-22 14:45:23.202  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-03-22 14:45:23.202  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-03-22 14:45:23.203  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-03-22 14:45:23.203  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-03-22 14:45:23.227  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-03-22 14:45:34.473  INFO 21916 --- [restartedMain] c.c.CustomerSecurityApplication          : Starting CustomerSecurityApplication using Java 17.0.9 on LIN-PF1TMGZV with PID 21916 (C:\Users\IPSAHOO\OneDrive\Deals-and-Coupon-Finder-App-main imp\Deals-and-Coupon-Finder-App-main\backend\customer-security\target\classes started by ipsahoo in C:\Users\IPSAHOO\OneDrive\Deals-and-Coupon-Finder-App-main imp\Deals-and-Coupon-Finder-App-main\backend\customer-security)
+2024-03-22 14:45:34.475  INFO 21916 --- [restartedMain] c.c.CustomerSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-22 14:45:34.558  INFO 21916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 14:45:34.558  INFO 21916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 14:45:35.798  INFO 21916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-03-22 14:45:36.019  INFO 21916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213 ms. Found 2 MongoDB repository interfaces.
+2024-03-22 14:45:36.394  INFO 21916 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9b13fcbe-a602-39da-ac09-e6da047d4b3d
+2024-03-22 14:45:37.089  INFO 21916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2024-03-22 14:45:37.102  INFO 21916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-22 14:45:37.103  INFO 21916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-22 14:45:37.280  INFO 21916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-22 14:45:37.280  INFO 21916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2720 ms
+2024-03-22 14:45:37.688  INFO 21916 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.9+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@4345ade9]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-03-22 14:45:37.709  INFO 21916 --- [cluster-ClusterId{value='65fd4c39637fee79e51cfa99', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:91}] to localhost:27017
+2024-03-22 14:45:37.709  INFO 21916 --- [cluster-rtt-ClusterId{value='65fd4c39637fee79e51cfa99', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:92}] to localhost:27017
+2024-03-22 14:45:37.710  INFO 21916 --- [cluster-ClusterId{value='65fd4c39637fee79e51cfa99', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=41305700}
+2024-03-22 14:45:37.854  WARN 21916 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-03-22 14:45:38.030  WARN 21916 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-03-22 14:45:38.441  WARN 21916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-03-22 14:45:39.083  INFO 21916 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-22 14:45:39.264  INFO 21916 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17d43e32, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c3643df, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a217c7e, org.springframework.security.web.header.HeaderWriterFilter@674e003, org.springframework.web.filter.CorsFilter@6e396e9e, org.springframework.security.web.authentication.logout.LogoutFilter@192a4eff, com.customersecurity.secutiry.jwt.AuthTokenFilter@1ce9da15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18b8dec3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51b23250, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15bdf78e, org.springframework.security.web.session.SessionManagementFilter@67c7c3c7, org.springframework.security.web.access.ExceptionTranslationFilter@772f502c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bcc76bc]
+2024-03-22 14:45:39.819  INFO 21916 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-03-22 14:45:40.114  WARN 21916 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-22 14:45:40.213  INFO 21916 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-03-22 14:45:40.267  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-03-22 14:45:40.280  INFO 21916 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-03-22 14:45:40.326  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-03-22 14:45:40.326  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-03-22 14:45:40.327  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-03-22 14:45:40.327  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-03-22 14:45:40.327  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-03-22 14:45:40.327  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-03-22 14:45:40.328  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-03-22 14:45:40.791  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-03-22 14:45:40.797  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-03-22 14:45:40.802  INFO 21916 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-03-22 14:45:40.811  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1711098940810 with initial instances count: 1
+2024-03-22 14:45:40.816  INFO 21916 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER-SECURITY with eureka with status UP
+2024-03-22 14:45:40.816  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1711098940816, current=UP, previous=STARTING]
+2024-03-22 14:45:40.819  INFO 21916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085: registering service...
+2024-03-22 14:45:40.825  WARN 21916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8085 is already in use
+2024-03-22 14:45:40.840  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-03-22 14:45:40.881  INFO 21916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - registration status: 204
+2024-03-22 14:45:40.886  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-03-22 14:45:40.893  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - deregister  status: 200
+2024-03-22 14:45:40.901  INFO 21916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-03-22 14:45:40.904  INFO 21916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-22 14:45:40.912  WARN 21916 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BufferPoolPruner-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2024-03-22 14:45:40.925  INFO 21916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-22 14:45:40.961 ERROR 21916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+2024-03-22 14:45:53.227  INFO 25116 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - Re-registering apps/CUSTOMER-SECURITY
+2024-03-22 14:45:53.228  INFO 25116 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085: registering service...
+2024-03-22 14:45:53.234  INFO 25116 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - registration status: 204
+2024-03-22 14:46:23.183  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-03-22 14:46:23.184  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-03-22 14:46:23.185  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-03-22 14:46:23.185  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-03-22 14:46:23.185  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-03-22 14:46:23.185  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-03-22 14:46:23.186  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-03-22 14:46:23.202  INFO 25116 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-03-22 14:46:24.155  INFO 25116 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-22 14:46:24.159  INFO 25116 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER-SECURITY with eureka with status DOWN
+2024-03-22 14:46:24.160  INFO 25116 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1711098984160, current=DOWN, previous=UP]
+2024-03-22 14:46:24.161  INFO 25116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085: registering service...
+2024-03-22 14:46:24.169  INFO 25116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - registration status: 204
+2024-03-22 14:46:24.183  INFO 25116 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-22 14:46:24.191  WARN 25116 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BufferPoolPruner-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2024-03-22 14:46:24.192  WARN 25116 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='65fd4c09eb9666490e335f65', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.9/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base@17.0.9/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:290)
+ java.base@17.0.9/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+ java.base@17.0.9/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+ java.base@17.0.9/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+ java.base@17.0.9/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2024-03-22 14:46:24.192  WARN 25116 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [cluster-rtt-ClusterId{value='65fd4c09eb9666490e335f65', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:443)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:64)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:415)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2024-03-22 14:46:24.193  WARN 25116 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [MaintenanceTimer-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2024-03-22 14:46:24.208  INFO 25116 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-03-22 14:46:27.213  INFO 25116 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-03-22 14:46:27.230  INFO 25116 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SECURITY/LIN-PF1TMGZV.corp.capgemini.com:customer-security:8085 - deregister  status: 200
+2024-03-22 14:46:27.237  INFO 25116 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
